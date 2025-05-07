@@ -35,7 +35,6 @@ function Dashboard() {
                 console.error("Error fetching user info:", error);
             }
         };
-
         getInfo();
     }, []);
 
