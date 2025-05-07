@@ -10,11 +10,15 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cookie": "^1.0.2",
     "cors": "^2.8.5",
     "cros": "^1.1.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "express-session": "^1.18.1",
+    "js": "^0.1.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
     "passport": "^0.7.0",
     "passport-google-oauth": "^2.0.0",
     "passport-google-oauth20": "^2.0.0"
