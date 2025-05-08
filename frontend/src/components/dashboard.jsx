@@ -59,7 +59,7 @@ function Dashboard() {
                     </div>
 
                     <button
-                        className="mt-6 w-full py-2 px-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition"
+                        className="mt-6 w-full py-2 px-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition cursor-pointer"
                         onClick={handleLogout} 
                     >
                         Log Out

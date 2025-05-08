@@ -31,7 +31,8 @@ router.get('/google/callback',
             maxAge: 86400000 // 1 day
         });
 
-        res.redirect(process.env.CLIENT_SUCCESS_URL);
+        res.redirect(`${process.env.CLIENT_SUCCESS_URL}?name=${user.displayName}&email=${user.emails?.[0]?.value}&picture=${user.photos?.[0]?.value}`);
+
     }
 );
 
